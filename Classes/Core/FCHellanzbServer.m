@@ -82,7 +82,7 @@
 		[download setNewzbinID:newzbinID];
 		if([size isKindOfClass:[NSNumber class]]){
 			long long realSize = [size longLongValue];
-			[download setSize:realSize * 1024];
+			[download setSize:realSize];
 		}else if([size isKindOfClass:[NSString class]]){
 			[download setSizeFromString:size];
 		}

@@ -1,1 +1,10 @@
-Forthcoming.
+FightClub.framework
+===================
+
+Introduction
+------------
+FightClub is a framework for connecting to Hellanzb servers, written in Objective-C. It works on the Mac and iPhone.
+
+Adding FightClub
+----------------
+The easiest way to use FightClub is just to add the .h and .m files to your project. In the future, FightClub will be able to be built standalone into a .framework file on Mac, and .a file for iPhone.

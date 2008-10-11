@@ -233,6 +233,8 @@
 			<key>Layout</key>
 			<array>
 				<dict>
+					<key>BecomeActive</key>
+					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -270,21 +272,11 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateExpansionKey</key>
 							<array>
 								<string>0867D691FE84028FC02AAC07</string>
-								<string>08FB77AEFE84172EC02AAC07</string>
-								<string>1EB783AE0E933584000B8C3B</string>
-								<string>1EB783B40E933584000B8C3B</string>
 								<string>034768DFFF38A50411DB9C8B</string>
 								<string>1C37FBAC04509CD000000102</string>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
-							<array>
-								<array>
-									<integer>6</integer>
-									<integer>2</integer>
-									<integer>1</integer>
-									<integer>0</integer>
-								</array>
-							</array>
+							<array/>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
 							<string>{{0, 0}, {185, 760}}</string>
 						</dict>
@@ -334,7 +326,7 @@
 												<key>_historyCapacity</key>
 												<integer>0</integer>
 												<key>bookmark</key>
-												<string>1EBE43780E955B4E002D9BFB</string>
+												<string>1EB8C8720EA1475D00984CD7</string>
 												<key>history</key>
 												<array>
 													<string>1EB7861E0E934839000B8C3B</string>
@@ -342,7 +334,7 @@
 													<string>1EB787B60E947C31000B8C3B</string>
 													<string>1EB787C30E947C53000B8C3B</string>
 													<string>1EB787F10E94FE5B000B8C3B</string>
-													<string>1EB787F40E94FE5B000B8C3B</string>
+													<string>1EBE43780E955B4E002D9BFB</string>
 												</array>
 												<key>prevStack</key>
 												<array>
@@ -392,11 +384,11 @@
 												<key>_historyCapacity</key>
 												<integer>0</integer>
 												<key>bookmark</key>
-												<string>1EBE43790E955B4E002D9BFB</string>
+												<string>1EB8C8730EA1475D00984CD7</string>
 												<key>history</key>
 												<array>
 													<string>1EB786C70E9359F1000B8C3B</string>
-													<string>1EB787F50E94FE5B000B8C3B</string>
+													<string>1EBE43790E955B4E002D9BFB</string>
 												</array>
 												<key>prevStack</key>
 												<array>
@@ -444,7 +436,7 @@
 									<key>GeometryConfiguration</key>
 									<dict>
 										<key>Frame</key>
-										<string>{{10, 27}, {377, 327}}</string>
+										<string>{{10, 27}, {1233, 218}}</string>
 									</dict>
 									<key>Module</key>
 									<string>XCDetailModule</string>
@@ -530,13 +522,13 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>1EBE436A0E955B4E002D9BFB</string>
+				<string>1EB8C8740EA1475D00984CD7</string>
 				<string>1CA23ED40692098700951B8B</string>
-				<string>1EBE436B0E955B4E002D9BFB</string>
-				<string>1EBE436C0E955B4E002D9BFB</string>
+				<string>1EB8C8750EA1475D00984CD7</string>
+				<string>1EB8C8760EA1475D00984CD7</string>
 				<string>1EB783A80E933553000B8C3B</string>
 				<string>1EB783A80E933553000B8C3B</string>
-				<string>1EBE436D0E955B4E002D9BFB</string>
+				<string>1EB8C8770EA1475D00984CD7</string>
 				<string>1CA23EDF0692099D00951B8B</string>
 				<string>1CA23EE00692099D00951B8B</string>
 				<string>1CA23EE10692099D00951B8B</string>
@@ -719,7 +711,7 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>/Users/syco/Projects/FightClub/FightClub.xcodeproj</string>
+		<string>/Users/syco/fightclub/FightClub.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
 	<string>0 59 1440 819 0 0 1440 878 </string>
