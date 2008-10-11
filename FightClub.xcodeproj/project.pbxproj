@@ -1,0 +1,664 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		1EB784C90E933921000B8C3B /* FightClub - Headers */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 1EB784E10E933952000B8C3B /* Build configuration list for PBXAggregateTarget "FightClub - Headers" */;
+			buildPhases = (
+				1EB784C80E933921000B8C3B /* CopyFiles */,
+			);
+			dependencies = (
+			);
+			name = "FightClub - Headers";
+			productName = "FightClub - Headers";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		1EB783CA0E933584000B8C3B /* FCHellanzbDownload.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EB783B00E933584000B8C3B /* FCHellanzbDownload.h */; };
+		1EB783CB0E933584000B8C3B /* FCHellanzbDownload.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EB783B10E933584000B8C3B /* FCHellanzbDownload.m */; };
+		1EB783CC0E933584000B8C3B /* FCHellanzbServer.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EB783B20E933584000B8C3B /* FCHellanzbServer.h */; };
+		1EB783CD0E933584000B8C3B /* FCHellanzbServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EB783B30E933584000B8C3B /* FCHellanzbServer.m */; };
+		1EB783D10E933584000B8C3B /* XMLRPC.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EB783B80E933584000B8C3B /* XMLRPC.h */; };
+		1EB783D20E933584000B8C3B /* XMLRPCConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EB783B90E933584000B8C3B /* XMLRPCConnection.h */; };
+		1EB783D30E933584000B8C3B /* XMLRPCConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EB783BA0E933584000B8C3B /* XMLRPCConnection.m */; };
+		1EB783D40E933584000B8C3B /* XMLRPCDecoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EB783BB0E933584000B8C3B /* XMLRPCDecoder.h */; };
+		1EB783D50E933584000B8C3B /* XMLRPCDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EB783BC0E933584000B8C3B /* XMLRPCDecoder.m */; };
+		1EB783D60E933584000B8C3B /* XMLRPCEncoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EB783BD0E933584000B8C3B /* XMLRPCEncoder.h */; };
+		1EB783D70E933584000B8C3B /* XMLRPCEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EB783BE0E933584000B8C3B /* XMLRPCEncoder.m */; };
+		1EB783D80E933584000B8C3B /* XMLRPCExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EB783BF0E933584000B8C3B /* XMLRPCExtensions.h */; };
+		1EB783D90E933584000B8C3B /* XMLRPCExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EB783C00E933584000B8C3B /* XMLRPCExtensions.m */; };
+		1EB783DA0E933584000B8C3B /* XMLRPCRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EB783C10E933584000B8C3B /* XMLRPCRequest.h */; };
+		1EB783DB0E933584000B8C3B /* XMLRPCRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EB783C20E933584000B8C3B /* XMLRPCRequest.m */; };
+		1EB783DC0E933584000B8C3B /* XMLRPCResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EB783C30E933584000B8C3B /* XMLRPCResponse.h */; };
+		1EB783DD0E933584000B8C3B /* XMLRPCResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EB783C40E933584000B8C3B /* XMLRPCResponse.m */; };
+		1EB783DE0E933584000B8C3B /* XMLRPCServer.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EB783C50E933584000B8C3B /* XMLRPCServer.h */; };
+		1EB783DF0E933584000B8C3B /* XMLRPCServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EB783C60E933584000B8C3B /* XMLRPCServer.m */; };
+		1EB783E00E933584000B8C3B /* XMLValueDecoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EB783C70E933584000B8C3B /* XMLValueDecoder.h */; };
+		1EB783E10E933584000B8C3B /* XMLValueDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EB783C80E933584000B8C3B /* XMLValueDecoder.m */; };
+		1EB783E40E9335F2000B8C3B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0867D69BFE84028FC02AAC07 /* Foundation.framework */; };
+		1EB784730E9336C5000B8C3B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EB784720E9336C4000B8C3B /* Foundation.framework */; };
+		1EB784930E9337AA000B8C3B /* FCHellanzbDownload.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EB783B00E933584000B8C3B /* FCHellanzbDownload.h */; };
+		1EB784940E9337AA000B8C3B /* FCHellanzbServer.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EB783B20E933584000B8C3B /* FCHellanzbServer.h */; };
+		1EB784960E9337AA000B8C3B /* XMLRPC.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EB783B80E933584000B8C3B /* XMLRPC.h */; };
+		1EB784970E9337AA000B8C3B /* XMLRPCConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EB783B90E933584000B8C3B /* XMLRPCConnection.h */; };
+		1EB784980E9337AA000B8C3B /* XMLRPCDecoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EB783BB0E933584000B8C3B /* XMLRPCDecoder.h */; };
+		1EB784990E9337AA000B8C3B /* XMLRPCEncoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EB783BD0E933584000B8C3B /* XMLRPCEncoder.h */; };
+		1EB7849A0E9337AA000B8C3B /* XMLRPCExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EB783BF0E933584000B8C3B /* XMLRPCExtensions.h */; };
+		1EB7849B0E9337AA000B8C3B /* XMLRPCRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EB783C10E933584000B8C3B /* XMLRPCRequest.h */; };
+		1EB7849C0E9337AA000B8C3B /* XMLRPCResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EB783C30E933584000B8C3B /* XMLRPCResponse.h */; };
+		1EB7849D0E9337AA000B8C3B /* XMLRPCServer.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EB783C50E933584000B8C3B /* XMLRPCServer.h */; };
+		1EB7849E0E9337AA000B8C3B /* XMLValueDecoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EB783C70E933584000B8C3B /* XMLValueDecoder.h */; };
+		1EB7849F0E9337B7000B8C3B /* FCHellanzbDownload.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EB783B10E933584000B8C3B /* FCHellanzbDownload.m */; };
+		1EB784A00E9337B7000B8C3B /* FCHellanzbServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EB783B30E933584000B8C3B /* FCHellanzbServer.m */; };
+		1EB784A20E9337B7000B8C3B /* XMLRPCConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EB783BA0E933584000B8C3B /* XMLRPCConnection.m */; };
+		1EB784A30E9337B7000B8C3B /* XMLRPCDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EB783BC0E933584000B8C3B /* XMLRPCDecoder.m */; };
+		1EB784A40E9337B7000B8C3B /* XMLRPCEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EB783BE0E933584000B8C3B /* XMLRPCEncoder.m */; };
+		1EB784A50E9337B7000B8C3B /* XMLRPCExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EB783C00E933584000B8C3B /* XMLRPCExtensions.m */; };
+		1EB784A60E9337B7000B8C3B /* XMLRPCRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EB783C20E933584000B8C3B /* XMLRPCRequest.m */; };
+		1EB784A70E9337B7000B8C3B /* XMLRPCResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EB783C40E933584000B8C3B /* XMLRPCResponse.m */; };
+		1EB784A80E9337B7000B8C3B /* XMLRPCServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EB783C60E933584000B8C3B /* XMLRPCServer.m */; };
+		1EB784A90E9337B7000B8C3B /* XMLValueDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EB783C80E933584000B8C3B /* XMLValueDecoder.m */; };
+		1EB784CE0E933945000B8C3B /* XMLRPCEncoder.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1EB783BD0E933584000B8C3B /* XMLRPCEncoder.h */; };
+		1EB784CF0E933945000B8C3B /* XMLRPCExtensions.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1EB783BF0E933584000B8C3B /* XMLRPCExtensions.h */; };
+		1EB784D00E933945000B8C3B /* XMLValueDecoder.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1EB783C70E933584000B8C3B /* XMLValueDecoder.h */; };
+		1EB784D10E933945000B8C3B /* XMLRPC.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1EB783B80E933584000B8C3B /* XMLRPC.h */; };
+		1EB784D20E933945000B8C3B /* XMLRPCConnection.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1EB783B90E933584000B8C3B /* XMLRPCConnection.h */; };
+		1EB784D30E933945000B8C3B /* FCHellanzbDownload.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1EB783B00E933584000B8C3B /* FCHellanzbDownload.h */; };
+		1EB784D40E933945000B8C3B /* XMLRPCResponse.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1EB783C30E933584000B8C3B /* XMLRPCResponse.h */; };
+		1EB784D50E933945000B8C3B /* XMLRPCDecoder.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1EB783BB0E933584000B8C3B /* XMLRPCDecoder.h */; };
+		1EB784D60E933945000B8C3B /* XMLRPCServer.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1EB783C50E933584000B8C3B /* XMLRPCServer.h */; };
+		1EB784D70E933945000B8C3B /* XMLRPCRequest.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1EB783C10E933584000B8C3B /* XMLRPCRequest.h */; };
+		1EB784D80E933945000B8C3B /* FCHellanzbServer.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1EB783B20E933584000B8C3B /* FCHellanzbServer.h */; };
+		8DC2EF530486A6940098B216 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C1666FE841158C02AAC07 /* InfoPlist.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1EB784DA0E93394B000B8C3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EB784C90E933921000B8C3B;
+			remoteInfo = "FightClub - Headers";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1EB784C80E933921000B8C3B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Headers;
+			dstSubfolderSpec = 16;
+			files = (
+				1EB784CE0E933945000B8C3B /* XMLRPCEncoder.h in CopyFiles */,
+				1EB784CF0E933945000B8C3B /* XMLRPCExtensions.h in CopyFiles */,
+				1EB784D00E933945000B8C3B /* XMLValueDecoder.h in CopyFiles */,
+				1EB784D10E933945000B8C3B /* XMLRPC.h in CopyFiles */,
+				1EB784D20E933945000B8C3B /* XMLRPCConnection.h in CopyFiles */,
+				1EB784D30E933945000B8C3B /* FCHellanzbDownload.h in CopyFiles */,
+				1EB784D40E933945000B8C3B /* XMLRPCResponse.h in CopyFiles */,
+				1EB784D50E933945000B8C3B /* XMLRPCDecoder.h in CopyFiles */,
+				1EB784D60E933945000B8C3B /* XMLRPCServer.h in CopyFiles */,
+				1EB784D70E933945000B8C3B /* XMLRPCRequest.h in CopyFiles */,
+				1EB784D80E933945000B8C3B /* FCHellanzbServer.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0867D69BFE84028FC02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		0867D6A5FE840307C02AAC07 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		089C1667FE841158C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		1EB783B00E933584000B8C3B /* FCHellanzbDownload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FCHellanzbDownload.h; sourceTree = "<group>"; };
+		1EB783B10E933584000B8C3B /* FCHellanzbDownload.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FCHellanzbDownload.m; sourceTree = "<group>"; };
+		1EB783B20E933584000B8C3B /* FCHellanzbServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FCHellanzbServer.h; sourceTree = "<group>"; };
+		1EB783B30E933584000B8C3B /* FCHellanzbServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FCHellanzbServer.m; sourceTree = "<group>"; };
+		1EB783B80E933584000B8C3B /* XMLRPC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLRPC.h; sourceTree = "<group>"; };
+		1EB783B90E933584000B8C3B /* XMLRPCConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLRPCConnection.h; sourceTree = "<group>"; };
+		1EB783BA0E933584000B8C3B /* XMLRPCConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLRPCConnection.m; sourceTree = "<group>"; };
+		1EB783BB0E933584000B8C3B /* XMLRPCDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLRPCDecoder.h; sourceTree = "<group>"; };
+		1EB783BC0E933584000B8C3B /* XMLRPCDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLRPCDecoder.m; sourceTree = "<group>"; };
+		1EB783BD0E933584000B8C3B /* XMLRPCEncoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLRPCEncoder.h; sourceTree = "<group>"; };
+		1EB783BE0E933584000B8C3B /* XMLRPCEncoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLRPCEncoder.m; sourceTree = "<group>"; };
+		1EB783BF0E933584000B8C3B /* XMLRPCExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLRPCExtensions.h; sourceTree = "<group>"; };
+		1EB783C00E933584000B8C3B /* XMLRPCExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLRPCExtensions.m; sourceTree = "<group>"; };
+		1EB783C10E933584000B8C3B /* XMLRPCRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLRPCRequest.h; sourceTree = "<group>"; };
+		1EB783C20E933584000B8C3B /* XMLRPCRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLRPCRequest.m; sourceTree = "<group>"; };
+		1EB783C30E933584000B8C3B /* XMLRPCResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLRPCResponse.h; sourceTree = "<group>"; };
+		1EB783C40E933584000B8C3B /* XMLRPCResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLRPCResponse.m; sourceTree = "<group>"; };
+		1EB783C50E933584000B8C3B /* XMLRPCServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLRPCServer.h; sourceTree = "<group>"; };
+		1EB783C60E933584000B8C3B /* XMLRPCServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLRPCServer.m; sourceTree = "<group>"; };
+		1EB783C70E933584000B8C3B /* XMLValueDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLValueDecoder.h; sourceTree = "<group>"; };
+		1EB783C80E933584000B8C3B /* XMLValueDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLValueDecoder.m; sourceTree = "<group>"; };
+		1EB7846B0E933643000B8C3B /* libFightClub.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFightClub.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EB784720E9336C4000B8C3B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		32DBCF5E0370ADEE00C91783 /* FightClub_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FightClub_Prefix.pch; sourceTree = "<group>"; };
+		8DC2EF5A0486A6940098B216 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DC2EF5B0486A6940098B216 /* FightClub.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FightClub.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2F7E79907B2D74100F64583 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1EB784690E933643000B8C3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EB784730E9336C5000B8C3B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DC2EF560486A6940098B216 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EB783E40E9335F2000B8C3B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DC2EF5B0486A6940098B216 /* FightClub.framework */,
+				1EB7846B0E933643000B8C3B /* libFightClub.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* FightClub */ = {
+			isa = PBXGroup;
+			children = (
+				08FB77AEFE84172EC02AAC07 /* Classes */,
+				32C88DFF0371C24200C91783 /* Other Sources */,
+				089C1665FE841158C02AAC07 /* Resources */,
+				0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */,
+				034768DFFF38A50411DB9C8B /* Products */,
+				1EB784720E9336C4000B8C3B /* Foundation.framework */,
+			);
+			name = FightClub;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7B0FEA5585E11CA2CBB /* Linked Frameworks */,
+				1058C7B2FEA5585E11CA2CBB /* Other Frameworks */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		089C1665FE841158C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8DC2EF5A0486A6940098B216 /* Info.plist */,
+				089C1666FE841158C02AAC07 /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		08FB77AEFE84172EC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1EB783AE0E933584000B8C3B /* Core */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7B0FEA5585E11CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7B2FEA5585E11CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0867D6A5FE840307C02AAC07 /* AppKit.framework */,
+				D2F7E79907B2D74100F64583 /* CoreData.framework */,
+				0867D69BFE84028FC02AAC07 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		1EB783AE0E933584000B8C3B /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				1EB783B00E933584000B8C3B /* FCHellanzbDownload.h */,
+				1EB783B10E933584000B8C3B /* FCHellanzbDownload.m */,
+				1EB783B20E933584000B8C3B /* FCHellanzbServer.h */,
+				1EB783B30E933584000B8C3B /* FCHellanzbServer.m */,
+				1EB783B40E933584000B8C3B /* XMLRPC */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		1EB783B40E933584000B8C3B /* XMLRPC */ = {
+			isa = PBXGroup;
+			children = (
+				1EB783B80E933584000B8C3B /* XMLRPC.h */,
+				1EB783B90E933584000B8C3B /* XMLRPCConnection.h */,
+				1EB783BA0E933584000B8C3B /* XMLRPCConnection.m */,
+				1EB783BB0E933584000B8C3B /* XMLRPCDecoder.h */,
+				1EB783BC0E933584000B8C3B /* XMLRPCDecoder.m */,
+				1EB783BD0E933584000B8C3B /* XMLRPCEncoder.h */,
+				1EB783BE0E933584000B8C3B /* XMLRPCEncoder.m */,
+				1EB783BF0E933584000B8C3B /* XMLRPCExtensions.h */,
+				1EB783C00E933584000B8C3B /* XMLRPCExtensions.m */,
+				1EB783C10E933584000B8C3B /* XMLRPCRequest.h */,
+				1EB783C20E933584000B8C3B /* XMLRPCRequest.m */,
+				1EB783C30E933584000B8C3B /* XMLRPCResponse.h */,
+				1EB783C40E933584000B8C3B /* XMLRPCResponse.m */,
+				1EB783C50E933584000B8C3B /* XMLRPCServer.h */,
+				1EB783C60E933584000B8C3B /* XMLRPCServer.m */,
+				1EB783C70E933584000B8C3B /* XMLValueDecoder.h */,
+				1EB783C80E933584000B8C3B /* XMLValueDecoder.m */,
+			);
+			path = XMLRPC;
+			sourceTree = "<group>";
+		};
+		32C88DFF0371C24200C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32DBCF5E0370ADEE00C91783 /* FightClub_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1EB784670E933643000B8C3B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EB784930E9337AA000B8C3B /* FCHellanzbDownload.h in Headers */,
+				1EB784940E9337AA000B8C3B /* FCHellanzbServer.h in Headers */,
+				1EB784960E9337AA000B8C3B /* XMLRPC.h in Headers */,
+				1EB784970E9337AA000B8C3B /* XMLRPCConnection.h in Headers */,
+				1EB784980E9337AA000B8C3B /* XMLRPCDecoder.h in Headers */,
+				1EB784990E9337AA000B8C3B /* XMLRPCEncoder.h in Headers */,
+				1EB7849A0E9337AA000B8C3B /* XMLRPCExtensions.h in Headers */,
+				1EB7849B0E9337AA000B8C3B /* XMLRPCRequest.h in Headers */,
+				1EB7849C0E9337AA000B8C3B /* XMLRPCResponse.h in Headers */,
+				1EB7849D0E9337AA000B8C3B /* XMLRPCServer.h in Headers */,
+				1EB7849E0E9337AA000B8C3B /* XMLValueDecoder.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DC2EF500486A6940098B216 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EB783CA0E933584000B8C3B /* FCHellanzbDownload.h in Headers */,
+				1EB783CC0E933584000B8C3B /* FCHellanzbServer.h in Headers */,
+				1EB783D10E933584000B8C3B /* XMLRPC.h in Headers */,
+				1EB783D20E933584000B8C3B /* XMLRPCConnection.h in Headers */,
+				1EB783D40E933584000B8C3B /* XMLRPCDecoder.h in Headers */,
+				1EB783D60E933584000B8C3B /* XMLRPCEncoder.h in Headers */,
+				1EB783D80E933584000B8C3B /* XMLRPCExtensions.h in Headers */,
+				1EB783DA0E933584000B8C3B /* XMLRPCRequest.h in Headers */,
+				1EB783DC0E933584000B8C3B /* XMLRPCResponse.h in Headers */,
+				1EB783DE0E933584000B8C3B /* XMLRPCServer.h in Headers */,
+				1EB783E00E933584000B8C3B /* XMLValueDecoder.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1EB7846A0E933643000B8C3B /* FightClub - iPhone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EB784710E9336C1000B8C3B /* Build configuration list for PBXNativeTarget "FightClub - iPhone" */;
+			buildPhases = (
+				1EB784670E933643000B8C3B /* Headers */,
+				1EB784680E933643000B8C3B /* Sources */,
+				1EB784690E933643000B8C3B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1EB784DB0E93394B000B8C3B /* PBXTargetDependency */,
+			);
+			name = "FightClub - iPhone";
+			productName = "FightClub - iPhone";
+			productReference = 1EB7846B0E933643000B8C3B /* libFightClub.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		8DC2EF4F0486A6940098B216 /* FightClub - OS X */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB91AD08733DA50010E9CD /* Build configuration list for PBXNativeTarget "FightClub - OS X" */;
+			buildPhases = (
+				8DC2EF500486A6940098B216 /* Headers */,
+				8DC2EF520486A6940098B216 /* Resources */,
+				8DC2EF540486A6940098B216 /* Sources */,
+				8DC2EF560486A6940098B216 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FightClub - OS X";
+			productInstallPath = "$(HOME)/Library/Frameworks";
+			productName = FightClub;
+			productReference = 8DC2EF5B0486A6940098B216 /* FightClub.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB91B108733DA50010E9CD /* Build configuration list for PBXProject "FightClub" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 0867D691FE84028FC02AAC07 /* FightClub */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DC2EF4F0486A6940098B216 /* FightClub - OS X */,
+				1EB7846A0E933643000B8C3B /* FightClub - iPhone */,
+				1EB784C90E933921000B8C3B /* FightClub - Headers */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8DC2EF520486A6940098B216 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DC2EF530486A6940098B216 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1EB784680E933643000B8C3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EB7849F0E9337B7000B8C3B /* FCHellanzbDownload.m in Sources */,
+				1EB784A00E9337B7000B8C3B /* FCHellanzbServer.m in Sources */,
+				1EB784A20E9337B7000B8C3B /* XMLRPCConnection.m in Sources */,
+				1EB784A30E9337B7000B8C3B /* XMLRPCDecoder.m in Sources */,
+				1EB784A40E9337B7000B8C3B /* XMLRPCEncoder.m in Sources */,
+				1EB784A50E9337B7000B8C3B /* XMLRPCExtensions.m in Sources */,
+				1EB784A60E9337B7000B8C3B /* XMLRPCRequest.m in Sources */,
+				1EB784A70E9337B7000B8C3B /* XMLRPCResponse.m in Sources */,
+				1EB784A80E9337B7000B8C3B /* XMLRPCServer.m in Sources */,
+				1EB784A90E9337B7000B8C3B /* XMLValueDecoder.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DC2EF540486A6940098B216 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EB783CB0E933584000B8C3B /* FCHellanzbDownload.m in Sources */,
+				1EB783CD0E933584000B8C3B /* FCHellanzbServer.m in Sources */,
+				1EB783D30E933584000B8C3B /* XMLRPCConnection.m in Sources */,
+				1EB783D50E933584000B8C3B /* XMLRPCDecoder.m in Sources */,
+				1EB783D70E933584000B8C3B /* XMLRPCEncoder.m in Sources */,
+				1EB783D90E933584000B8C3B /* XMLRPCExtensions.m in Sources */,
+				1EB783DB0E933584000B8C3B /* XMLRPCRequest.m in Sources */,
+				1EB783DD0E933584000B8C3B /* XMLRPCResponse.m in Sources */,
+				1EB783DF0E933584000B8C3B /* XMLRPCServer.m in Sources */,
+				1EB783E10E933584000B8C3B /* XMLValueDecoder.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1EB784DB0E93394B000B8C3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1EB784C90E933921000B8C3B /* FightClub - Headers */;
+			targetProxy = 1EB784DA0E93394B000B8C3B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		089C1666FE841158C02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C1667FE841158C02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB91AE08733DA50010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(NATIVE_ARCH)";
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = FightClub_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Frameworks";
+				PRODUCT_NAME = FightClub;
+				SDKROOT = "";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		1DEB91AF08733DA50010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = FightClub_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Frameworks";
+				PRODUCT_NAME = FightClub;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+		1DEB91B208733DA50010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Debug;
+		};
+		1DEB91B308733DA50010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Release;
+		};
+		1EB7846C0E933644000B8C3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				ONLY_ACTIVE_ARCH = NO;
+				PREBINDING = NO;
+				PRODUCT_NAME = FightClub;
+				SDKROOT = iphoneos2.0;
+				VALID_ARCHS = "i386 armv6";
+			};
+			name = Debug;
+		};
+		1EB7846D0E933644000B8C3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				PREBINDING = NO;
+				PRODUCT_NAME = FightClub;
+				SDKROOT = iphoneos2.0;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		1EB7846E0E93368F000B8C3B /* Debug - Device */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = "Debug - Device";
+		};
+		1EB7846F0E93368F000B8C3B /* Debug - Device */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = FightClub_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Frameworks";
+				PRODUCT_NAME = FightClub;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = "Debug - Device";
+		};
+		1EB784700E93368F000B8C3B /* Debug - Device */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PREBINDING = NO;
+				PRODUCT_NAME = FightClub;
+				SDKROOT = iphoneos2.0;
+			};
+			name = "Debug - Device";
+		};
+		1EB784CA0E933921000B8C3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = "FightClub - Headers";
+			};
+			name = Debug;
+		};
+		1EB784CB0E933921000B8C3B /* Debug - Device */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "FightClub - Headers";
+			};
+			name = "Debug - Device";
+		};
+		1EB784CC0E933921000B8C3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				PRODUCT_NAME = "FightClub - Headers";
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB91AD08733DA50010E9CD /* Build configuration list for PBXNativeTarget "FightClub - OS X" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB91AE08733DA50010E9CD /* Debug */,
+				1EB7846F0E93368F000B8C3B /* Debug - Device */,
+				1DEB91AF08733DA50010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB91B108733DA50010E9CD /* Build configuration list for PBXProject "FightClub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB91B208733DA50010E9CD /* Debug */,
+				1EB7846E0E93368F000B8C3B /* Debug - Device */,
+				1DEB91B308733DA50010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EB784710E9336C1000B8C3B /* Build configuration list for PBXNativeTarget "FightClub - iPhone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EB7846C0E933644000B8C3B /* Debug */,
+				1EB784700E93368F000B8C3B /* Debug - Device */,
+				1EB7846D0E933644000B8C3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EB784E10E933952000B8C3B /* Build configuration list for PBXAggregateTarget "FightClub - Headers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EB784CA0E933921000B8C3B /* Debug */,
+				1EB784CB0E933921000B8C3B /* Debug - Device */,
+				1EB784CC0E933921000B8C3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}
