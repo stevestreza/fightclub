@@ -23,8 +23,8 @@
 /* Begin PBXBuildFile section */
 		1EB783CA0E933584000B8C3B /* FCHellanzbDownload.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EB783B00E933584000B8C3B /* FCHellanzbDownload.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1EB783CB0E933584000B8C3B /* FCHellanzbDownload.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EB783B10E933584000B8C3B /* FCHellanzbDownload.m */; };
-		1EB783CC0E933584000B8C3B /* FCHellanzbServer.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EB783B20E933584000B8C3B /* FCHellanzbServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1EB783CD0E933584000B8C3B /* FCHellanzbServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EB783B30E933584000B8C3B /* FCHellanzbServer.m */; };
+		1EB783CC0E933584000B8C3B /* FCHellanzbClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EB783B20E933584000B8C3B /* FCHellanzbClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1EB783CD0E933584000B8C3B /* FCHellanzbClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EB783B30E933584000B8C3B /* FCHellanzbClient.m */; };
 		1EB783D10E933584000B8C3B /* XMLRPC.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EB783B80E933584000B8C3B /* XMLRPC.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1EB783D20E933584000B8C3B /* XMLRPCConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EB783B90E933584000B8C3B /* XMLRPCConnection.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1EB783D30E933584000B8C3B /* XMLRPCConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EB783BA0E933584000B8C3B /* XMLRPCConnection.m */; };
@@ -38,14 +38,14 @@
 		1EB783DB0E933584000B8C3B /* XMLRPCRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EB783C20E933584000B8C3B /* XMLRPCRequest.m */; };
 		1EB783DC0E933584000B8C3B /* XMLRPCResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EB783C30E933584000B8C3B /* XMLRPCResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1EB783DD0E933584000B8C3B /* XMLRPCResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EB783C40E933584000B8C3B /* XMLRPCResponse.m */; };
-		1EB783DE0E933584000B8C3B /* XMLRPCServer.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EB783C50E933584000B8C3B /* XMLRPCServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1EB783DF0E933584000B8C3B /* XMLRPCServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EB783C60E933584000B8C3B /* XMLRPCServer.m */; };
+		1EB783DE0E933584000B8C3B /* XMLRPCClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EB783C50E933584000B8C3B /* XMLRPCClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1EB783DF0E933584000B8C3B /* XMLRPCClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EB783C60E933584000B8C3B /* XMLRPCClient.m */; };
 		1EB783E00E933584000B8C3B /* XMLValueDecoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EB783C70E933584000B8C3B /* XMLValueDecoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1EB783E10E933584000B8C3B /* XMLValueDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EB783C80E933584000B8C3B /* XMLValueDecoder.m */; };
 		1EB783E40E9335F2000B8C3B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0867D69BFE84028FC02AAC07 /* Foundation.framework */; };
 		1EB784730E9336C5000B8C3B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EB784720E9336C4000B8C3B /* Foundation.framework */; };
 		1EB784930E9337AA000B8C3B /* FCHellanzbDownload.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EB783B00E933584000B8C3B /* FCHellanzbDownload.h */; };
-		1EB784940E9337AA000B8C3B /* FCHellanzbServer.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EB783B20E933584000B8C3B /* FCHellanzbServer.h */; };
+		1EB784940E9337AA000B8C3B /* FCHellanzbClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EB783B20E933584000B8C3B /* FCHellanzbClient.h */; };
 		1EB784960E9337AA000B8C3B /* XMLRPC.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EB783B80E933584000B8C3B /* XMLRPC.h */; };
 		1EB784970E9337AA000B8C3B /* XMLRPCConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EB783B90E933584000B8C3B /* XMLRPCConnection.h */; };
 		1EB784980E9337AA000B8C3B /* XMLRPCDecoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EB783BB0E933584000B8C3B /* XMLRPCDecoder.h */; };
@@ -53,17 +53,17 @@
 		1EB7849A0E9337AA000B8C3B /* XMLRPCExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EB783BF0E933584000B8C3B /* XMLRPCExtensions.h */; };
 		1EB7849B0E9337AA000B8C3B /* XMLRPCRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EB783C10E933584000B8C3B /* XMLRPCRequest.h */; };
 		1EB7849C0E9337AA000B8C3B /* XMLRPCResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EB783C30E933584000B8C3B /* XMLRPCResponse.h */; };
-		1EB7849D0E9337AA000B8C3B /* XMLRPCServer.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EB783C50E933584000B8C3B /* XMLRPCServer.h */; };
+		1EB7849D0E9337AA000B8C3B /* XMLRPCClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EB783C50E933584000B8C3B /* XMLRPCClient.h */; };
 		1EB7849E0E9337AA000B8C3B /* XMLValueDecoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EB783C70E933584000B8C3B /* XMLValueDecoder.h */; };
 		1EB7849F0E9337B7000B8C3B /* FCHellanzbDownload.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EB783B10E933584000B8C3B /* FCHellanzbDownload.m */; };
-		1EB784A00E9337B7000B8C3B /* FCHellanzbServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EB783B30E933584000B8C3B /* FCHellanzbServer.m */; };
+		1EB784A00E9337B7000B8C3B /* FCHellanzbClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EB783B30E933584000B8C3B /* FCHellanzbClient.m */; };
 		1EB784A20E9337B7000B8C3B /* XMLRPCConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EB783BA0E933584000B8C3B /* XMLRPCConnection.m */; };
 		1EB784A30E9337B7000B8C3B /* XMLRPCDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EB783BC0E933584000B8C3B /* XMLRPCDecoder.m */; };
 		1EB784A40E9337B7000B8C3B /* XMLRPCEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EB783BE0E933584000B8C3B /* XMLRPCEncoder.m */; };
 		1EB784A50E9337B7000B8C3B /* XMLRPCExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EB783C00E933584000B8C3B /* XMLRPCExtensions.m */; };
 		1EB784A60E9337B7000B8C3B /* XMLRPCRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EB783C20E933584000B8C3B /* XMLRPCRequest.m */; };
 		1EB784A70E9337B7000B8C3B /* XMLRPCResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EB783C40E933584000B8C3B /* XMLRPCResponse.m */; };
-		1EB784A80E9337B7000B8C3B /* XMLRPCServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EB783C60E933584000B8C3B /* XMLRPCServer.m */; };
+		1EB784A80E9337B7000B8C3B /* XMLRPCClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EB783C60E933584000B8C3B /* XMLRPCClient.m */; };
 		1EB784A90E9337B7000B8C3B /* XMLValueDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EB783C80E933584000B8C3B /* XMLValueDecoder.m */; };
 		1EB784CE0E933945000B8C3B /* XMLRPCEncoder.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1EB783BD0E933584000B8C3B /* XMLRPCEncoder.h */; };
 		1EB784CF0E933945000B8C3B /* XMLRPCExtensions.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1EB783BF0E933584000B8C3B /* XMLRPCExtensions.h */; };
@@ -73,9 +73,9 @@
 		1EB784D30E933945000B8C3B /* FCHellanzbDownload.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1EB783B00E933584000B8C3B /* FCHellanzbDownload.h */; };
 		1EB784D40E933945000B8C3B /* XMLRPCResponse.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1EB783C30E933584000B8C3B /* XMLRPCResponse.h */; };
 		1EB784D50E933945000B8C3B /* XMLRPCDecoder.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1EB783BB0E933584000B8C3B /* XMLRPCDecoder.h */; };
-		1EB784D60E933945000B8C3B /* XMLRPCServer.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1EB783C50E933584000B8C3B /* XMLRPCServer.h */; };
+		1EB784D60E933945000B8C3B /* XMLRPCClient.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1EB783C50E933584000B8C3B /* XMLRPCClient.h */; };
 		1EB784D70E933945000B8C3B /* XMLRPCRequest.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1EB783C10E933584000B8C3B /* XMLRPCRequest.h */; };
-		1EB784D80E933945000B8C3B /* FCHellanzbServer.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1EB783B20E933584000B8C3B /* FCHellanzbServer.h */; };
+		1EB784D80E933945000B8C3B /* FCHellanzbClient.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1EB783B20E933584000B8C3B /* FCHellanzbClient.h */; };
 		8DC2EF530486A6940098B216 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C1666FE841158C02AAC07 /* InfoPlist.strings */; };
 /* End PBXBuildFile section */
 
@@ -104,9 +104,9 @@
 				1EB784D30E933945000B8C3B /* FCHellanzbDownload.h in CopyFiles */,
 				1EB784D40E933945000B8C3B /* XMLRPCResponse.h in CopyFiles */,
 				1EB784D50E933945000B8C3B /* XMLRPCDecoder.h in CopyFiles */,
-				1EB784D60E933945000B8C3B /* XMLRPCServer.h in CopyFiles */,
+				1EB784D60E933945000B8C3B /* XMLRPCClient.h in CopyFiles */,
 				1EB784D70E933945000B8C3B /* XMLRPCRequest.h in CopyFiles */,
-				1EB784D80E933945000B8C3B /* FCHellanzbServer.h in CopyFiles */,
+				1EB784D80E933945000B8C3B /* FCHellanzbClient.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,8 +119,8 @@
 		1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 		1EB783B00E933584000B8C3B /* FCHellanzbDownload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FCHellanzbDownload.h; sourceTree = "<group>"; };
 		1EB783B10E933584000B8C3B /* FCHellanzbDownload.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FCHellanzbDownload.m; sourceTree = "<group>"; };
-		1EB783B20E933584000B8C3B /* FCHellanzbServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FCHellanzbServer.h; sourceTree = "<group>"; };
-		1EB783B30E933584000B8C3B /* FCHellanzbServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FCHellanzbServer.m; sourceTree = "<group>"; };
+		1EB783B20E933584000B8C3B /* FCHellanzbClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FCHellanzbClient.h; sourceTree = "<group>"; };
+		1EB783B30E933584000B8C3B /* FCHellanzbClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FCHellanzbClient.m; sourceTree = "<group>"; };
 		1EB783B80E933584000B8C3B /* XMLRPC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLRPC.h; sourceTree = "<group>"; };
 		1EB783B90E933584000B8C3B /* XMLRPCConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLRPCConnection.h; sourceTree = "<group>"; };
 		1EB783BA0E933584000B8C3B /* XMLRPCConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLRPCConnection.m; sourceTree = "<group>"; };
@@ -134,8 +134,8 @@
 		1EB783C20E933584000B8C3B /* XMLRPCRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLRPCRequest.m; sourceTree = "<group>"; };
 		1EB783C30E933584000B8C3B /* XMLRPCResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLRPCResponse.h; sourceTree = "<group>"; };
 		1EB783C40E933584000B8C3B /* XMLRPCResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLRPCResponse.m; sourceTree = "<group>"; };
-		1EB783C50E933584000B8C3B /* XMLRPCServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLRPCServer.h; sourceTree = "<group>"; };
-		1EB783C60E933584000B8C3B /* XMLRPCServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLRPCServer.m; sourceTree = "<group>"; };
+		1EB783C50E933584000B8C3B /* XMLRPCClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLRPCClient.h; sourceTree = "<group>"; };
+		1EB783C60E933584000B8C3B /* XMLRPCClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLRPCClient.m; sourceTree = "<group>"; };
 		1EB783C70E933584000B8C3B /* XMLValueDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLValueDecoder.h; sourceTree = "<group>"; };
 		1EB783C80E933584000B8C3B /* XMLValueDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLValueDecoder.m; sourceTree = "<group>"; };
 		1EB7846B0E933643000B8C3B /* libFightClub.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFightClub.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -237,8 +237,8 @@
 			children = (
 				1EB783B00E933584000B8C3B /* FCHellanzbDownload.h */,
 				1EB783B10E933584000B8C3B /* FCHellanzbDownload.m */,
-				1EB783B20E933584000B8C3B /* FCHellanzbServer.h */,
-				1EB783B30E933584000B8C3B /* FCHellanzbServer.m */,
+				1EB783B20E933584000B8C3B /* FCHellanzbClient.h */,
+				1EB783B30E933584000B8C3B /* FCHellanzbClient.m */,
 				1EB783B40E933584000B8C3B /* XMLRPC */,
 			);
 			path = Core;
@@ -260,8 +260,8 @@
 				1EB783C20E933584000B8C3B /* XMLRPCRequest.m */,
 				1EB783C30E933584000B8C3B /* XMLRPCResponse.h */,
 				1EB783C40E933584000B8C3B /* XMLRPCResponse.m */,
-				1EB783C50E933584000B8C3B /* XMLRPCServer.h */,
-				1EB783C60E933584000B8C3B /* XMLRPCServer.m */,
+				1EB783C50E933584000B8C3B /* XMLRPCClient.h */,
+				1EB783C60E933584000B8C3B /* XMLRPCClient.m */,
 				1EB783C70E933584000B8C3B /* XMLValueDecoder.h */,
 				1EB783C80E933584000B8C3B /* XMLValueDecoder.m */,
 			);
@@ -284,7 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1EB784930E9337AA000B8C3B /* FCHellanzbDownload.h in Headers */,
-				1EB784940E9337AA000B8C3B /* FCHellanzbServer.h in Headers */,
+				1EB784940E9337AA000B8C3B /* FCHellanzbClient.h in Headers */,
 				1EB784960E9337AA000B8C3B /* XMLRPC.h in Headers */,
 				1EB784970E9337AA000B8C3B /* XMLRPCConnection.h in Headers */,
 				1EB784980E9337AA000B8C3B /* XMLRPCDecoder.h in Headers */,
@@ -292,7 +292,7 @@
 				1EB7849A0E9337AA000B8C3B /* XMLRPCExtensions.h in Headers */,
 				1EB7849B0E9337AA000B8C3B /* XMLRPCRequest.h in Headers */,
 				1EB7849C0E9337AA000B8C3B /* XMLRPCResponse.h in Headers */,
-				1EB7849D0E9337AA000B8C3B /* XMLRPCServer.h in Headers */,
+				1EB7849D0E9337AA000B8C3B /* XMLRPCClient.h in Headers */,
 				1EB7849E0E9337AA000B8C3B /* XMLValueDecoder.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -302,7 +302,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1EB783CA0E933584000B8C3B /* FCHellanzbDownload.h in Headers */,
-				1EB783CC0E933584000B8C3B /* FCHellanzbServer.h in Headers */,
+				1EB783CC0E933584000B8C3B /* FCHellanzbClient.h in Headers */,
 				1EB783D10E933584000B8C3B /* XMLRPC.h in Headers */,
 				1EB783D20E933584000B8C3B /* XMLRPCConnection.h in Headers */,
 				1EB783D40E933584000B8C3B /* XMLRPCDecoder.h in Headers */,
@@ -310,7 +310,7 @@
 				1EB783D80E933584000B8C3B /* XMLRPCExtensions.h in Headers */,
 				1EB783DA0E933584000B8C3B /* XMLRPCRequest.h in Headers */,
 				1EB783DC0E933584000B8C3B /* XMLRPCResponse.h in Headers */,
-				1EB783DE0E933584000B8C3B /* XMLRPCServer.h in Headers */,
+				1EB783DE0E933584000B8C3B /* XMLRPCClient.h in Headers */,
 				1EB783E00E933584000B8C3B /* XMLValueDecoder.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -392,14 +392,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				1EB7849F0E9337B7000B8C3B /* FCHellanzbDownload.m in Sources */,
-				1EB784A00E9337B7000B8C3B /* FCHellanzbServer.m in Sources */,
+				1EB784A00E9337B7000B8C3B /* FCHellanzbClient.m in Sources */,
 				1EB784A20E9337B7000B8C3B /* XMLRPCConnection.m in Sources */,
 				1EB784A30E9337B7000B8C3B /* XMLRPCDecoder.m in Sources */,
 				1EB784A40E9337B7000B8C3B /* XMLRPCEncoder.m in Sources */,
 				1EB784A50E9337B7000B8C3B /* XMLRPCExtensions.m in Sources */,
 				1EB784A60E9337B7000B8C3B /* XMLRPCRequest.m in Sources */,
 				1EB784A70E9337B7000B8C3B /* XMLRPCResponse.m in Sources */,
-				1EB784A80E9337B7000B8C3B /* XMLRPCServer.m in Sources */,
+				1EB784A80E9337B7000B8C3B /* XMLRPCClient.m in Sources */,
 				1EB784A90E9337B7000B8C3B /* XMLValueDecoder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -409,14 +409,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				1EB783CB0E933584000B8C3B /* FCHellanzbDownload.m in Sources */,
-				1EB783CD0E933584000B8C3B /* FCHellanzbServer.m in Sources */,
+				1EB783CD0E933584000B8C3B /* FCHellanzbClient.m in Sources */,
 				1EB783D30E933584000B8C3B /* XMLRPCConnection.m in Sources */,
 				1EB783D50E933584000B8C3B /* XMLRPCDecoder.m in Sources */,
 				1EB783D70E933584000B8C3B /* XMLRPCEncoder.m in Sources */,
 				1EB783D90E933584000B8C3B /* XMLRPCExtensions.m in Sources */,
 				1EB783DB0E933584000B8C3B /* XMLRPCRequest.m in Sources */,
 				1EB783DD0E933584000B8C3B /* XMLRPCResponse.m in Sources */,
-				1EB783DF0E933584000B8C3B /* XMLRPCServer.m in Sources */,
+				1EB783DF0E933584000B8C3B /* XMLRPCClient.m in Sources */,
 				1EB783E10E933584000B8C3B /* XMLValueDecoder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

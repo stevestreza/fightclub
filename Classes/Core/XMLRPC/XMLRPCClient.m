@@ -6,9 +6,9 @@
 //  Copyright 2008 __MyCompanyName__. All rights reserved.
 //
 
-#import "XMLRPCServer.h"
+#import "XMLRPCClient.h"
 
-@interface XMLRPCServer (TNSWPrivate)
+@interface XMLRPCClient (TNSWPrivate)
 
 -(void)_setHost:(NSString *)newHost
 		   port:(UInt16)    newPort
@@ -17,7 +17,7 @@
 
 @end
 
-@implementation XMLRPCServer
+@implementation XMLRPCClient
 
 @synthesize host, port, userName, password;
 

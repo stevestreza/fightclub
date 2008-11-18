@@ -7,10 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
-@class FCHellanzbServer;
+@class FCHellanzbClient;
 
 @interface FCHellanzbDownload : NSObject {
-	FCHellanzbServer *mServer;
+	FCHellanzbClient *mServer;
 	NSString *mID;
 
 	NSString *mNewzbinID;

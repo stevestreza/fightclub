@@ -15,7 +15,7 @@
 
 @class XMLRPCRequest, XMLRPCConnection, XMLRPCResponse;
 
-@interface XMLRPCServer : NSObject {
+@interface XMLRPCClient : NSObject {
 	NSString *host;
 	UInt16 port;
 	

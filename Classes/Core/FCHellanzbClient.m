@@ -6,10 +6,10 @@
 //  Copyright 2008 __MyCompanyName__. All rights reserved.
 //
 
-#import "FCHellanzbServer.h"
+#import "FCHellanzbClient.h"
 #import "FCHellanzbDownload.h"
 
-@implementation FCHellanzbServer
+@implementation FCHellanzbClient
 
 @synthesize name=mName, 
 	downloadQueue=mDownloadQueue, 

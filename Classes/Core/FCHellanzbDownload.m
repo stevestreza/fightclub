@@ -12,7 +12,7 @@
 
 @synthesize name=mName, newzbinID=mNewzbinID, size=mSize;
 
--(id)initWithID:(NSString *)newID server:(FCHellanzbServer *)server{
+-(id)initWithID:(NSString *)newID server:(FCHellanzbClient *)server{
 	if(self = [super init]){
 		mServer = [server retain];
 		mID = [newID copy];

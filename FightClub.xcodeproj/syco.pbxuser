@@ -113,7 +113,7 @@
 	};
 	1E30A0330EC02480000A17B0 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 1EB783B30E933584000B8C3B /* FCHellanzbServer.m */;
+		fRef = 1EB783B30E933584000B8C3B /* FCHellanzbClient.m */;
 		name = "FCHellanzbServer.m: 131";
 		rLen = 0;
 		rLoc = 3690;
@@ -123,7 +123,7 @@
 	};
 	1E30A0340EC02480000A17B0 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 1EB783B30E933584000B8C3B /* FCHellanzbServer.m */;
+		fRef = 1EB783B30E933584000B8C3B /* FCHellanzbClient.m */;
 		name = "FCHellanzbServer.m: 85";
 		rLen = 32;
 		rLoc = 2058;
@@ -207,7 +207,7 @@
 	};
 	1E34B8640EBEE269004D0321 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 1EB783C60E933584000B8C3B /* XMLRPCServer.m */;
+		fRef = 1EB783C60E933584000B8C3B /* XMLRPCClient.m */;
 		name = "XMLRPCServer.m: 43";
 		rLen = 12;
 		rLoc = 980;
@@ -236,13 +236,13 @@
 	};
 	1EB783B10E933584000B8C3B /* FCHellanzbDownload.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {354, 658}}";
+			sepNavIntBoundsRect = "{{0, 0}, {420, 658}}";
 			sepNavSelRange = "{235, 0}";
 			sepNavVisRange = "{0, 0}";
 			sepNavWindowFrame = "{{15, -1}, {1439, 874}}";
 		};
 	};
-	1EB783B20E933584000B8C3B /* FCHellanzbServer.h */ = {
+	1EB783B20E933584000B8C3B /* FCHellanzbClient.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1167, 574}}";
 			sepNavSelRange = "{781, 0}";
@@ -250,11 +250,11 @@
 			sepNavWindowFrame = "{{15, -1}, {1439, 874}}";
 		};
 	};
-	1EB783B30E933584000B8C3B /* FCHellanzbServer.m */ = {
+	1EB783B30E933584000B8C3B /* FCHellanzbClient.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {402, 2604}}";
-			sepNavSelRange = "{2058, 32}";
-			sepNavVisRange = "{0, 0}";
+			sepNavIntBoundsRect = "{{0, 0}, {1167, 2310}}";
+			sepNavSelRange = "{3690, 0}";
+			sepNavVisRange = "{3891, 853}";
 			sepNavWindowFrame = "{{15, -1}, {1439, 874}}";
 		};
 	};
@@ -274,23 +274,24 @@
 	};
 	1EB783C30E933584000B8C3B /* XMLRPCResponse.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1167, 686}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1167, 868}}";
 			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 1271}";
+			sepNavVisRange = "{1121, 425}";
 		};
 	};
-	1EB783C50E933584000B8C3B /* XMLRPCServer.h */ = {
+	1EB783C50E933584000B8C3B /* XMLRPCClient.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1167, 602}}";
-			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{135, 903}";
+			sepNavIntBoundsRect = "{{0, 0}, {1380, 746}}";
+			sepNavSelRange = "{415, 12}";
+			sepNavVisRange = "{0, 1038}";
+			sepNavWindowFrame = "{{15, -1}, {1439, 874}}";
 		};
 	};
-	1EB783C60E933584000B8C3B /* XMLRPCServer.m */ = {
+	1EB783C60E933584000B8C3B /* XMLRPCClient.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1167, 3066}}";
+			sepNavIntBoundsRect = "{{0, 0}, {762, 3248}}";
 			sepNavSelRange = "{980, 12}";
-			sepNavVisRange = "{473, 916}";
+			sepNavVisRange = "{0, 0}";
 		};
 	};
 	1EB783C80E933584000B8C3B /* XMLValueDecoder.m */ = {
@@ -318,7 +319,7 @@
 	};
 	1EB7852B0E933C3D000B8C3B /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 1EB783B30E933584000B8C3B /* FCHellanzbServer.m */;
+		fRef = 1EB783B30E933584000B8C3B /* FCHellanzbClient.m */;
 		name = "FCHellanzbServer.m: 45";
 		rLen = 0;
 		rLoc = 2975;
@@ -328,7 +329,7 @@
 	};
 	1EB785550E93449C000B8C3B /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 1EB783C60E933584000B8C3B /* XMLRPCServer.m */;
+		fRef = 1EB783C60E933584000B8C3B /* XMLRPCClient.m */;
 		name = "XMLRPCServer.m: 184";
 		rLen = 0;
 		rLoc = 5776;
@@ -368,7 +369,7 @@
 	};
 	1EB787230E947545000B8C3B /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 1EB783B30E933584000B8C3B /* FCHellanzbServer.m */;
+		fRef = 1EB783B30E933584000B8C3B /* FCHellanzbClient.m */;
 		name = "FCHellanzbServer.m: 58";
 		rLen = 0;
 		rLoc = 1706;
@@ -388,7 +389,7 @@
 	};
 	1EFAF7C20ED25F9400A8B55E /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 1EB783B30E933584000B8C3B /* FCHellanzbServer.m */;
+		fRef = 1EB783B30E933584000B8C3B /* FCHellanzbClient.m */;
 		name = "FCHellanzbServer.m: 131";
 		rLen = 0;
 		rLoc = 3690;
@@ -398,7 +399,7 @@
 	};
 	1EFAF7C30ED25F9400A8B55E /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 1EB783B30E933584000B8C3B /* FCHellanzbServer.m */;
+		fRef = 1EB783B30E933584000B8C3B /* FCHellanzbClient.m */;
 		name = "FCHellanzbServer.m: 85";
 		rLen = 32;
 		rLoc = 2058;

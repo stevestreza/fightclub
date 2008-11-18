@@ -7,11 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "XMLRPCServer.h"
+#import "XMLRPCClient.h"
 
 @class FCHellanzbDownload;
 
-@interface FCHellanzbServer : XMLRPCServer {
+@interface FCHellanzbClient : XMLRPCClient {
 	NSString *mName;
 	NSMutableDictionary *mDownloads;
 	
