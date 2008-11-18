@@ -7,7 +7,7 @@
 //
 
 #import "FCHellanzbServer.h"
-
+#import "FCHellanzbDownload.h"
 
 @implementation FCHellanzbServer
 
@@ -113,19 +113,22 @@
 		return;
 	}
 	
-	NSDictionary *currentDLInfo = [[stats objectForKey:@"currently_downloading"] objectAtIndex:0];
-	
-	[self willChangeValueForKey:@"currentDownload"];
-	mCurrentDownload = [self downloadWithInfo:currentDLInfo];
-	
-	if(mCurrentDownload){
-		self.percentComplete = [[stats objectForKey:@"percent_complete"] intValue];
-		self.downloadSpeed   = [[stats objectForKey:@"rate"] intValue];
-		self.downloadsPaused = [[stats objectForKey:@"is_paused"] boolValue];
+	NSArray *downloadArray = [stats objectForKey:@"currently_downloading"];
+	if(downloadArray.count > 0){
+		NSDictionary *currentDLInfo = [[stats objectForKey:@"currently_downloading"] objectAtIndex:0];
 		
-//		NSLog(@"%i%% complete at %i KBps - %@",self.percentComplete, self.downloadSpeed, (self.downloadsPaused ? @"paused" : @"not paused"));
+		[self willChangeValueForKey:@"currentDownload"];
+		mCurrentDownload = [self downloadWithInfo:currentDLInfo];
+		
+		if(mCurrentDownload){
+			self.percentComplete = [[stats objectForKey:@"percent_complete"] intValue];
+			self.downloadSpeed   = [[stats objectForKey:@"rate"] intValue];
+			self.downloadsPaused = [[stats objectForKey:@"is_paused"] boolValue];
+			
+			//		NSLog(@"%i%% complete at %i KBps - %@",self.percentComplete, self.downloadSpeed, (self.downloadsPaused ? @"paused" : @"not paused"));
+		}
+		[self didChangeValueForKey:@"currentDownload"];
 	}
-	[self didChangeValueForKey:@"currentDownload"];
 	
 	[self _setDownloadQueue:[self downloadsWithInfoArray:[stats objectForKey:@"queued"]]];		
 	[self _setProcessingQueue:[self downloadsWithInfoArray:[stats objectForKey:@"currently_processing"]]];		
