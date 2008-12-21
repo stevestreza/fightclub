@@ -51,7 +51,6 @@
 }
 
 -(void)getStatus{
-	NSLog(@"Fetching status");
 	[self callMethod:@"status" withObjects:nil];
 }
 
@@ -81,7 +80,7 @@
 		[download setName:name];
 		[download setNewzbinID:newzbinID];
 		if([size isKindOfClass:[NSNumber class]]){
-			long long realSize = [size longLongValue];
+			long long realSize = [size longLongValue] * 1024 * 1024;
 			[download setSize:realSize];
 		}else if([size isKindOfClass:[NSString class]]){
 			[download setSizeFromString:size];
@@ -123,7 +122,7 @@
 		if(mCurrentDownload){
 			self.percentComplete = [[stats objectForKey:@"percent_complete"] intValue];
 			self.downloadSpeed   = [[stats objectForKey:@"rate"] intValue];
-			self.downloadsPaused = [[stats objectForKey:@"is_paused"] boolValue];
+			mDownloadsPaused = [[stats objectForKey:@"is_paused"] boolValue];
 			
 			//		NSLog(@"%i%% complete at %i KBps - %@",self.percentComplete, self.downloadSpeed, (self.downloadsPaused ? @"paused" : @"not paused"));
 		}
@@ -134,11 +133,18 @@
 	[self _setProcessingQueue:[self downloadsWithInfoArray:[stats objectForKey:@"currently_processing"]]];		
 }
 
+-(void)setDownloadsPaused:(BOOL)newPaused{
+	if(mDownloadsPaused == newPaused) return;
+	
+	mDownloadsPaused = newPaused;
+	[self callMethod:(newPaused ? @"pause" : @"continue") withObjects:[NSArray array]];
+}
+
 -(void)_setDownloadQueue:(NSArray *)newQueue{
 	if(![newQueue isEqualToArray:mDownloadQueue]){
 		[self willChangeValueForKey:@"downloadQueue"];
 		[newQueue retain];
-		[mDownloadQueue release];
+		[mDownloadQueue autorelease];
 		
 		mDownloadQueue = newQueue;
 		[self didChangeValueForKey:@"downloadQueue"];

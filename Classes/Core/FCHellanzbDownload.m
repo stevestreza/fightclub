@@ -31,7 +31,7 @@
 	NSScanner *scanner = [[[NSScanner alloc] initWithString:sizeStr] autorelease];
 	long long value = 0;
 	if([scanner scanLongLong:&value] && value){
-		self.size = value * 1024;
+		self.size = value * 1024 * 1024;
 	}
 }
 

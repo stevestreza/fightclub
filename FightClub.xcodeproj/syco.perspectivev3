@@ -279,8 +279,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>21</integer>
-									<integer>7</integer>
+									<integer>6</integer>
 									<integer>2</integer>
 									<integer>1</integer>
 									<integer>0</integer>
@@ -325,7 +324,7 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1EB783A80E933553000B8C3B</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>FCHellanzbClient.h</string>
+										<string>FCHellanzbClient.m</string>
 										<key>PBXSplitModuleInNavigatorKey</key>
 										<dict>
 											<key>Split0</key>
@@ -333,20 +332,21 @@
 												<key>PBXProjectModuleGUID</key>
 												<string>1EB783A90E933553000B8C3B</string>
 												<key>PBXProjectModuleLabel</key>
-												<string>FCHellanzbClient.h</string>
+												<string>FCHellanzbClient.m</string>
 												<key>_historyCapacity</key>
 												<integer>0</integer>
 												<key>bookmark</key>
-												<string>1E3842500ED52DA000DD6F43</string>
+												<string>1E6ACA6C0EFDC73800DE9E6D</string>
 												<key>history</key>
 												<array>
-													<string>1EB787B60E947C31000B8C3B</string>
 													<string>1E34B7500EBEDE5F004D0321</string>
 													<string>1E34B7510EBEDE5F004D0321</string>
 													<string>1EFAF88C0ED27DB100A8B55E</string>
-													<string>1EFAF88D0ED27DB100A8B55E</string>
 													<string>1EFAF88E0ED27DB100A8B55E</string>
-													<string>1EFAF8970ED27DB100A8B55E</string>
+													<string>1E6AC8DA0EFDA22800DE9E6D</string>
+													<string>1E6AC9370EFDA5C400DE9E6D</string>
+													<string>1E6AC93D0EFDA7D700DE9E6D</string>
+													<string>1E6AC9400EFDA7D700DE9E6D</string>
 												</array>
 												<key>prevStack</key>
 												<array>
@@ -356,6 +356,8 @@
 													<string>1EB785C70E9346C5000B8C3B</string>
 													<string>1E34B7560EBEDE5F004D0321</string>
 													<string>1EFAF8940ED27DB100A8B55E</string>
+													<string>1E6AC8DC0EFDA22800DE9E6D</string>
+													<string>1E6AC9390EFDA5C400DE9E6D</string>
 												</array>
 											</dict>
 											<key>SplitCount</key>
@@ -384,7 +386,7 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1EB783A80E933553000B8C3B</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>XMLRPCClient.m</string>
+										<string>FCHellanzbClient.m</string>
 										<key>PBXSplitModuleInNavigatorKey</key>
 										<dict>
 											<key>Split0</key>
@@ -392,19 +394,21 @@
 												<key>PBXProjectModuleGUID</key>
 												<string>1EB783A90E933553000B8C3B</string>
 												<key>PBXProjectModuleLabel</key>
-												<string>XMLRPCClient.m</string>
+												<string>FCHellanzbClient.m</string>
 												<key>_historyCapacity</key>
 												<integer>0</integer>
 												<key>bookmark</key>
-												<string>1E3842510ED52DA000DD6F43</string>
+												<string>1E6ACA6E0EFDC73800DE9E6D</string>
 												<key>history</key>
 												<array>
 													<string>1EFAF8990ED27DB100A8B55E</string>
-													<string>1EFAF89F0ED27DB100A8B55E</string>
+													<string>1E6ACA100EFDC2EC00DE9E6D</string>
+													<string>1E6ACA6D0EFDC73800DE9E6D</string>
 												</array>
 												<key>prevStack</key>
 												<array>
 													<string>1EFAF89D0ED27DB100A8B55E</string>
+													<string>1E6ACA120EFDC2EC00DE9E6D</string>
 												</array>
 											</dict>
 											<key>SplitCount</key>
@@ -448,8 +452,6 @@
 									<dict>
 										<key>Frame</key>
 										<string>{{10, 27}, {1233, 217}}</string>
-										<key>RubberWindowFrame</key>
-										<string>0 59 1440 819 0 0 1440 878 </string>
 									</dict>
 									<key>Module</key>
 									<string>XCDetailModule</string>
@@ -465,7 +467,9 @@
 									<key>GeometryConfiguration</key>
 									<dict>
 										<key>Frame</key>
-										<string>{{10, 27}, {1233, 218}}</string>
+										<string>{{10, 27}, {1233, 217}}</string>
+										<key>RubberWindowFrame</key>
+										<string>0 59 1440 819 0 0 1440 878 </string>
 									</dict>
 									<key>Module</key>
 									<string>PBXProjectFindModule</string>
@@ -533,13 +537,13 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>1E3842370ED52D5500DD6F43</string>
+				<string>1E6AC99E0EFDAF8E00DE9E6D</string>
 				<string>1CA23ED40692098700951B8B</string>
-				<string>1E3842380ED52D5500DD6F43</string>
-				<string>1E3842390ED52D5500DD6F43</string>
+				<string>1E6AC99F0EFDAF8E00DE9E6D</string>
+				<string>1E6AC9A00EFDAF8E00DE9E6D</string>
 				<string>1EB783A80E933553000B8C3B</string>
 				<string>1EB783A80E933553000B8C3B</string>
-				<string>1E38423A0ED52D5500DD6F43</string>
+				<string>1E6AC9A10EFDAF8E00DE9E6D</string>
 				<string>1CA23EDF0692099D00951B8B</string>
 				<string>1CA23EE00692099D00951B8B</string>
 				<string>1CA23EE10692099D00951B8B</string>

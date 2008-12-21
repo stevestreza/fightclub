@@ -39,4 +39,6 @@
 			  error:(NSError *)error;
 
 -(NSDictionary *)dictionary;
+
+-(void)callMethod:(NSString *)methodName withObjects:(NSArray *)objects;
 @end
